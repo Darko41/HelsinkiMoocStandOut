@@ -11,7 +11,6 @@ public abstract class Character {
 	int y;
 	
 	public Character(String name, int length, int height) {
-		super();
 		this.name = name;
 		this.length = length;
 		this.height = height;
@@ -39,15 +38,17 @@ public abstract class Character {
 
 	@Override
 	public boolean equals(Object obj) {
-		if (obj == null)
+		if (obj == null) {
 			return false;
-		
+		}
 		Character compared = (Character) obj;
 		
-		if (this.x == compared.x && this.y == compared.y)
+		if (this.x == compared.x && this.y == compared.y) {
 			return true;
-		else
+		}
+		else {
 			return false;
+		}
 	}
 
 	@Override

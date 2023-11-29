@@ -11,7 +11,6 @@ public class GameGrid {
 	private boolean vampireMove;
 	
 	public GameGrid(int length, int height, int vampires, boolean vampireMove) {
-		super();
 		characters = new Characters(length, height, vampires);
 		this.gameGrid = new ArrayList<>();
 		this.length = length;

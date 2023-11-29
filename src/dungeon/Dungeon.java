@@ -10,7 +10,6 @@ public class Dungeon {
 	private Scanner reader;
 	
 	public Dungeon(int length, int height, int vampires, int moves, boolean vampiresMove) {
-		super();
 		this.game = new GameGrid(length, height, vampires, vampiresMove);
 		this.moves = moves;
 		this.reader = new Scanner(System.in);
