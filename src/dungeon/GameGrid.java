@@ -30,7 +30,7 @@ public class GameGrid {
 				}
 			}
 			String s = "";
-			for (int x = 0; x < length; x++) {
+			for (int x = 0; x < height; x++) {
 				boolean containsPlayer = false;
 				for (Character c : playersOnY) {
 					if (x == c.getX()) {
