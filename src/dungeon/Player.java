@@ -23,7 +23,7 @@ public class Player extends Character {
 				x -= 1;
 			}
 			else if (s.equals("d") && x+1 < length && x+1 >= 0) {
-				x -= 1;
+				x += 1;
 			}
 		}
 	}

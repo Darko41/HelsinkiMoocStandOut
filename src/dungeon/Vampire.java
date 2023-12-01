@@ -23,10 +23,10 @@ public class Vampire extends Character {
 				else if (rand == 1 && x-1 < length && x-1 >= 0) {
 					x -= 1;
 				}
-				else if (rand == 2 && y+1 < length && y+1 >= 0) {
+				else if (rand == 2 && y+1 < height && y+1 >= 0) {
 					y += 1;
 				}
-				else if (rand == 3 && y-1 < length && y-1 >= 0) {
+				else if (rand == 3 && y-1 < height && y-1 >= 0) {
 					y -= 1;
 				}
 			}
