@@ -1,4 +1,4 @@
-package PhoneSearch;
+package phoneSearch;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -59,7 +59,7 @@ public class PersonDirectory {
 		return false;
 	}
 	
-	private Person getPersonByName(String name) {
+	public Person getPersonByName(String name) {
 		return this.names.get(name);
 	}
 	
