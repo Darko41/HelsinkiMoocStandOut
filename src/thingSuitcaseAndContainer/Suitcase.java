@@ -19,7 +19,7 @@ public class Suitcase {
 		}
 	}
 
-	private int totalWeight() {
+	public int totalWeight() {
 		int totalWeight = 0;
 		for (Thing t : things) {
 			totalWeight += t.getWeight();
@@ -39,7 +39,7 @@ public class Suitcase {
 		else if (things.size() > 1) {
 			text += things.size() + " things";
 		}
-		return text + " (" + totalWeight() + " kg");
+		return text + " (" + totalWeight() + " kg)";
 	}
 	
 	public void printThings() {
